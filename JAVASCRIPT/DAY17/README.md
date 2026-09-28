@@ -24,9 +24,12 @@ open your github account :-
     4.5 git push -u origin main
 
 
-    if i want to push the changes :- 
+    if i want to push the changes :- git oull
     1. git add . 
     2. git commit -m "changes in readme.md file"
     3. git push
 
+
+
+hy i am pranjal rai.
 
