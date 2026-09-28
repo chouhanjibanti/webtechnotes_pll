@@ -25,6 +25,8 @@ open your github account :-
 
 
     if i want to push the changes :- 
-    
+    1. git add . 
+    2. git commit -m "changes in readme.md file"
+    3. git push
 
 
