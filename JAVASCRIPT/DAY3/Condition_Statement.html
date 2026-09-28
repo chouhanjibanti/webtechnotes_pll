@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let age = prompt("Enter your age : ")
+        // if(age>18){
+        //     // console.log("you can vote");
+        //     // document.writeln("you can vote")
+        //     alert("you can vote")
+        // }else{
+        //     // console.log("you can not vote");
+        //     // document.writeln("you can not  vote")
+        //     alert("you can  not vote")
+        // }
+
+
+        // let age = prompt("Enter your age")
+        // if (age>0 && age<9 ) {
+        //     document.writeln("You are kids")
+        // }else if(age>=9 && age<18){
+        //     document.writeln("you are teenager")
+        // }else if(age>=18 && age <45){
+        //     document.writeln("you are adult")
+        // }else{
+        //     document.writeln("Aapna time aayega")
+        // }
+
+        // Real time example :- ATM - withdraw , deposit , check bal , pin gen
+
+        let choice = Number(prompt(`Enter number for 
+                            1. withdraw
+                            2. Deposit
+                            3. Check balance
+                            4. Pin generate `));
+
+    switch (choice) {
+        case 1:
+            document.writeln("withdraw sucessfully")
+            break;
+        case 2:
+            document.writeln("Deposit Sucessfully");
+            break;
+        case 3:
+            document.writeln("Check Balance Sucessfully");
+            break;
+        case 4:
+           document.writeln("Pin generate Sucessfully") 
+            break;
+        default:
+            document.writeln("invalid choice")
+            break;
+    }
+
+    </script>
+</body>
+</html>

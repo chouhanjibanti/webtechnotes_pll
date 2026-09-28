@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn1">Click me</button>
+
+    <button id="otp">OTP</button>
+
+    <button id="colorChange">ColorChange</button>
+
+    <button id="btn2">RandomColor</button>
+
+    <button id="btn3">onMouseOver</button>
+
+    <input type="text" id="oKP">
+
+    <button id="btn4">AddEventListener</button>
+
+    <script>
+      const btn1 = document.getElementById("btn1");
+
+      btn1.onclick = function () {
+        // document.writeln("hy i am onclick event")
+        document.body.style.backgroundColor = "red";
+        btn1.style.color = "green";
+      };
+      //  --------------------------------------------------
+
+      const otp = document.getElementById("otp");
+      otp.onclick = function () {
+        const otp1 = Math.floor(Math.random() * 10000);
+        alert(`My otp is : ${otp1}`);
+      };
+
+      const colorChange1 = document.getElementById("colorChange");
+      colorChange1.onclick = function () {
+        colorChange1.style.backgroundColor = "green";
+      };
+
+      const btn2 = document.getElementById("btn2");
+      btn2.onclick = function () {
+        const num = Math.floor(Math.random() * 10000);
+        document.body.style.backgroundColor = `#${num}`;
+      };
+
+
+       const btn3 = document.getElementById("btn3");
+      btn3.onmouseover = function () {
+        alert(`Hy i am onMouseOver Events`);
+      };
+
+       const oKP = document.getElementById("oKP");
+      oKP.onkeydown = function(e) {
+           document.writeln("your entered key is : ",e.key)
+        document.writeln("your entered key is : ",e.keyCode)
+      };
+
+
+    //   const btn4 = document.getElementById("btn4")
+    //   btn4.addEventListener("dblclick",()=>{
+    //       document.writeln("hy i am event listener")
+
+    //   })
+
+    function addEvent(){
+        document.writeln("hy i am event listener")
+    }
+
+     const btn4 = document.getElementById("btn4")
+      btn4.addEventListener("dblclick",addEvent)
+
+    //   promises :- 
+    </script>
+  </body>
+</html>

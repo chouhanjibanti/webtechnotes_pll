@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Register Form</h2>
+    <form
+      action=""
+      autocomplete="off"
+      style="border: 1px solid; border-radius: 5px"
+    >
+      <label for="">FirstName :</label>
+      <input type="text" placeholder="First Name" id="demo" /> <br />
+
+      LastName: <input type="text" placeholder="Enter Last Name" required />
+      <br />
+
+      Email : <input type="email" placeholder="john@gmail.com" autofocus />
+      <br />
+
+      Password : <input type="password" minlength="8" maxlength="12" /> <br />
+
+      Phone: <input type="tel" value="6266871796" readonly /> <br />
+
+      Age : <input type="number" /> <br />
+
+      <label for="gen">Gender :</label>
+      <input type="radio" name="gen" />Male
+      <input type="radio" name="gen" />Female
+      <input type="radio" name="gen" />Other <br />
+
+      <label for="hob">Hobbies:</label>
+      <input type="checkbox" name="hob" />Playing
+      <input type="checkbox" name="hob" />Singing
+      <input type="checkbox" name="hob" />Dancing <br />
+
+      Range : <input type="range" /> <br />
+
+        <select name="" id="" required>
+            <option value=""></option>
+        <option value="MCA">MCA</option>
+        <option value="BCA">BCA</option>
+        <option value="MTECH">MTECH</option>
+        <option value="BTECH">BTECH</option>
+      </select><br>
+
+      Date : <input type="date" /> <br />
+      DateTime : <input type="datetime" /> <br />
+      DateTime : <input type="datetime-local" /><br />
+      Adrdress :<textarea name="" id=""></textarea> <br />
+
+
+      File : <input type="file">
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+
+      <!-- drop down  -->
+
+    
+    </form>
+
+    <!-- <script>
+        const demo = document.getElementById("demo")
+        demo.onclick = function(){
+            document.writeln("hy i am name field")
+        }
+    </script> -->
+  </body>
+</html>

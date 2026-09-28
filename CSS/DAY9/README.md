@@ -1,0 +1,1 @@
+media Query :- for responsiveness 

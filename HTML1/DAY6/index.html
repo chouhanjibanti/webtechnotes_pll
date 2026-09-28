@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="shortcut icon" href="./image.png" type="image/x-icon">
+
+    <style>
+         #demo{
+            color: red;
+         }
+         .demo1{
+            color: green;
+         }
+        
+    </style>
+</head>
+<body>
+    <!-- 
+    core attibutes :- Additional Information 
+    style -> css provide 
+     , title -> page reference
+      id -> unique , #
+       class -> same , .
+    -->
+
+
+    <h1 id="demo">Debugshala</h1>
+    <h1 id="demo">Palsiya</h1>
+
+    <h2 class="demo1">Indore</h2>
+    <h2 class="demo1">Bhopal</h2>
+
+    <p style="color: yellow;">Hy</p>
+
+    <script>
+      const demo =  document.getElementById('demo')
+      demo.onclick = function(){
+        document.writeln("hy i am id so i will give the first element priority")
+      }
+    </script>
+</body>
+</html>

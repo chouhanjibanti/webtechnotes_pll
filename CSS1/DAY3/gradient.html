@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #linegra{
+            height: 200px;
+            width: 100%;
+            border: 1px solid;
+
+            background: linear-gradient(red,green,blue,purple);
+            background: linear-gradient(to top, red,green,blue,purple);
+            background: linear-gradient(to right, red,green,blue,purple);
+            background: linear-gradient(to left , red,green,blue,purple);
+        }
+        #radgra1{
+            height: 200px;
+            width: 100%;
+            border: 1px solid;
+
+            background: radial-gradient(yellow,green,orange,blue);
+
+        }
+
+        #radgra2{
+              height: 200px;
+            width: 200px;
+            border: 1px solid;
+
+            background: radial-gradient(circle, yellow,green,orange,blue);
+        }
+    </style>
+</head>
+<body>
+    <div id="linegra"></div>
+
+    <div id="radgra1"></div>
+
+    <div id="radgra2"></div>
+</body>
+</html>
