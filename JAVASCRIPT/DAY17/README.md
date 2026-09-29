@@ -5,12 +5,15 @@ Weather API :-
 Github :- 
 
 google -> search -> git download
-path set :- c / program file -> git 
+path set :- c / program file -> git  - env
+
+
+cmd -> git --version
 
 open your github account :- 
 1. repo click 
 2. click on -> new 
-3. name of the repo -> description , click on create repo 
+3. name of the repo -> webtech_notes> - description -> full mern     , click on create repo 
 4. 
 
     4.1 initilize the repo 
@@ -33,3 +36,9 @@ open your github account :-
 
 hy i am pranjal rai.
 
+
+
+=========================================
+
+
+Search :- github dowload
